@@ -68,3 +68,10 @@ if we want to perform the arthematic operations on integers on list(we only need
 
 
 # note= With a while loop, you cannot avoid using an index when iterating over a list.
+
+
+class hello:
+    def __init__(self,name):
+        print('hello world')
+        self.name=name
+object=hello('python is a programming language')
