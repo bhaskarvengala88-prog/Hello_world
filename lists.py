@@ -75,3 +75,11 @@ class hello:
         print('hello world')
         self.name=name
 object=hello('python is a programming language')
+
+
+
+class child(hello):
+    def __init__(self):
+        print('child function')
+
+obj=child()
